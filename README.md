@@ -4,7 +4,7 @@ Decentralized Lottery Smart Contract
 
 This project implements a decentralized Lottery System on the Ethereum blockchain using Solidity and Remix IDE. The goal is to provide a transparent, fair, and secure way for participants to enter a lottery and for a winner to be chosen without relying on a centralized authority.
 
-##🚀 Features
+## 🚀 Features
 
 Written in Solidity (v0.8.x)
 
@@ -20,7 +20,7 @@ Automatic reward distribution to the winner
 
 Resets after each round for continuous lotteries
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Solidity (0.8.x) – smart contract language
 
@@ -33,7 +33,7 @@ EthereumTester / PyEVM – local blockchain backend for testing
 Ganache / Infura (optional) – for real testnets
 
 
-##⚙️ How It Works
+## ⚙️ How It Works
 
 Manager Deployment – contract is deployed by a manager (creator).
 
@@ -47,7 +47,7 @@ Payout – full contract balance is automatically transferred to the winner.
 
 Reset – players array is cleared, and a new round can start.
 
-##📜 Smart Contract (Core Functions)
+## 📜 Smart Contract (Core Functions)
 
 participate() → lets players join with 1 ETH
 
@@ -59,7 +59,7 @@ pickWinner() → selects and pays out the winner
 
 
 
-##📊 Future Improvements
+## 📊 Future Improvements
 
 Integrate Chainlink VRF for secure randomness
 
@@ -67,7 +67,7 @@ Add multiple lottery types (daily, weekly, jackpot)
 
 Enable frontend DApp integration with React + Web3.js
 
-##📚 References
+## 📚 References
 
 Ethereum Docs: https://ethereum.org/developers/
 
@@ -75,7 +75,7 @@ Solidity Docs: https://docs.soliditylang.org/
 
 Web3.py Docs: https://web3py.readthedocs.io/
 
-##👩‍💻 Authors
+## 👩‍💻 Authors
 
 Varrshinie Aravindan
 
